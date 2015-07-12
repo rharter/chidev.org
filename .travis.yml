@@ -27,11 +27,5 @@ cache:
 
 script: grunt build
 
-deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: chidev.org
-  endpoint: chidev.org.s3-website-us-east-1.amazonaws.com
-  region: "US Standard"
-  local_dir: dist
+after_success:
+  - bundle exec s3_website push
