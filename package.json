@@ -1,8 +1,8 @@
 {
-  "name": "phillydev",
+  "name": "chidev",
   "private": true,
   "version": "0.1.0",
-  "description": "Yeoman workflow for phillydev.org",
+  "description": "Yeoman workflow for chidev.org",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
