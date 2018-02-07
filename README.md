@@ -6,18 +6,16 @@ This repository contains the Jekyll project that is used to build [chidev.org](h
 
 In order to develop against the site locally, you'll need to install:
 
-- Ruby & Bundler
-- Node.js & NPM
+- Ruby
+- Bundler
 
-Once everything is installed, install the Ruby and Node.js specific dependencies:
+Once those are installed, install the Ruby specific dependencies:
 
 ```bash
-$ npm install grunt-cli
-$ npm install
-$ bundle install
+$ bundle
 ```
 
-After that, you should be able to use `grunt serve` to view changes [locally](http://localhost:9000/) as you make them.
+After that, you should be able to use `jekyll serve` to view changes [locally](http://localhost:9000/) as you make them.
 
 ## Deployment
 
