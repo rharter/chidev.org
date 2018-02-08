@@ -2,7 +2,7 @@ s3_id: <%= ENV["AWS_ACCESS_KEY"] %>
 s3_secret: <%= ENV["AWS_SECRET_KEY"] %>
 s3_bucket: chidev.org
 
-site: dist
+site: _site
 
 max_age:
   "*": 300
